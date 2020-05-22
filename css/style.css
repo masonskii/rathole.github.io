@@ -48,6 +48,10 @@
 	background-repeat : no-repeat;
 	background-size : cover;
 	}
+	iframe{
+		width:560px;
+		height:315px;
+	}
 	#pVideo {
 	border : white solid 5px;
 	padding : 5px;
@@ -383,78 +387,360 @@
 	}
 	@media screen and (max-width: 480px) {
 
-		header img{
-		
-		display: none;
-		
-		}
-		
-		header a {
-		
-		font-size: 12px;
-		
-		margin-left: 5px;
-		
-		margin-right: 20px;
-		
-		}
-		
-		header .container{
-		
-		width: 100%;
-		
-		}
-		
-		.container{
-		
-		align-items: center;
-		
-		width: 100%;
-		
-		}
-		
-		.flex{
-		
-		display: flex;
-		
-		flex-direction: column;
-		
-		justify-content: center;
-		
-		}
-		
-		.blok-right{
-		
-		display: block;
-		
-		position: relative;
-		
-		margin-bottom: 30px;
-		
-		}
-		
-		.text{
-		
-		height: 100%;
-		
-		}
-		
-		}
-		
-		@media screen and (min-width: 2560px) {
-		
-		header a{
-		
-		font-size: 36px;
-		
-		}
-		
-		.text{
-		
-		font-size: 45px;
-		
-		height: 100%;
-		
-		}
-		
+		.fonslide {
+			width : 100%;
+			list-style : none;
+			z-index : -2;
+			background-repeat : no-repeat;
+			background-size : cover;
+			}
+			#home {
+			font : 14px Verdana, Arial, Helvetica, sans-serif;
+			color : black;
+			}
+			.gif {
+			background-image : url(../image/gorodgif.gif);
+			width : 100%;
+			height: 200vh;
+			list-style : none;
+			z-index : -1;
+			background-repeat : no-repeat;
+			background-size : cover;
+			}
+			.artFon {
+			background-image : url(../image/fonArt1.jpg);
+			width : 100%;
+			height : 50vh;
+			list-style : none;
+			z-index : -2;
+			background-repeat : no-repeat;
+			background-size : cover;
+			}
+			#slideshow {
+				position: absolute;
+				width: 300px;
+				height: 150px;
+				float:left;
+				border: 1px solid #ddd;
+				background: #FFF;
+				background: -webkit-linear-gradient(#FFF, #FFF 20%, #EEE 80%, #DDD);
+				background: -moz-linear-gradient(#FFF, #FFF 20%, #EEE 80%, #DDD);
+				background: -ms-linear-gradient(#FFF, #FFF 20%, #EEE 80%, #DDD);
+				background: -o-linear-gradient(#FFF, #FFF 20%, #EEE 80%, #DDD);
+				background: linear-gradient(#FFF, #FFF 20%, #EEE 80%, #DDD);
+				-webkit-border-radius: 2px 2px 2px 2px;
+				-moz-border-radius: 2px 2px 2px 2px;
+				border-radius: 2px 2px 2px 2px;
+				
+				-webkit-box-shadow: 0 0 3px rgba(0,0,0, 0.2);
+				-moz-box-shadow: 0 0 3px rgba(0,0,0, 0.2);
+				box-shadow: 0 0 3px rgba(0,0,0, 0.2);
+			}
+			.artzoom1:hover{
+				zoom:1.5;
+			}
+			.gallarys {
+			background-image : url(../image/fonforgall.gif);
+			width : 100%;
+			height : 30vh;
+			list-style : none;
+			z-index : -2;
+			background-repeat : no-repeat;
+			background-size : cover;
+			}
+			iframe{
+				width: 300px;
+				height: 150px;
+			}
+			.video {
+			background-image : url(../image/fonArt5.jpg);
+			width : 100%;
+			height : 175vh;
+			list-style : none;
+			z-index : -2;
+			background-repeat : no-repeat;
+			background-size : cover;
+			}
+			#pVideo {
+			border : white solid 5px;
+			width : 100%;
+			text-align : left;
+			font : 10px "Impact", Times, serif;
+			box-shadow : 5px 5px 5px 5px black;
+			color : peachpuff;
+			}
+			a.aVideo {
+			font-family : Arial, Helvetica, Verdana, sans-serif;
+			}
+			.aVideo:link {
+			text-decoration : none;
+			}
+			.aVideo:visited {
+			text-decoration : none;
+			}
+			.aVideo:active {
+			text-decoration : none;
+			}
+			.aVideo:hover {
+			font-size : 24px;
+			font-weight : bold;
+			color : peachpuff;
+			border : red solid 3px;
+			}
+			.art {
+			position : relative;
+			width : 100%;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			}
+			.site-blok {
+			position : absolute;
+			background-color : peachpuff;
+			width : 50%;
+			box-shadow : -10px 15px 10px 10px black;
+			border-radius : 10px 10px 10px 10px;
+			}
+			.head h1, h2 {
+			margin : 80px 0;
+			text-align : center;
+			font : 5px "Impact", Times, serif;
+			color : #fff;
+			}
+			.site-blok h1 {
+			border : white solid 5px;
+			padding : 5px;
+			text-align : center;
+			font : 10px "Impact", Times, serif;
+			color : black;
+			box-shadow : 5px 5px 5px 5px black;
+			}
+			.site-blok h2 {
+			margin : 40px;
+			text-align : center;
+			font : 5px "Impact", Times, serif;
+			color : mediumseagreen;
+			box-shadow : 5px 5px 5px 5px black;
+			}
+			.site-blok h2 {
+			margin : 40px;
+			text-align : center;
+			font : 10px "Impact", Times, serif;
+			color : mediumseagreen;
+			box-shadow : 5px 5px 5px 5px black;
+			}
+			.site-blok h3 {
+			text-align : left;
+			font : 30px "Impact", Times, serif;
+			color : indigo;
+			}
+			.site-blok img {
+			border : chocolate solid 1px;
+			box-shadow : 5px 5px 5px 5px black;
+			width: 100px;
+			height: 100px;
+			}
+			a {
+			text-decoration : none;
+			}
+			.container {
+			width : 100%;
+			}
+			.head span {
+			border : chocolate solid 1px;
+			text-align : left;
+			font : 10px "Impact", Times, serif;
+			}
+			header {
+			width : 100%;
+			background : peachpuff;
+			height : 80px;
+			text-align : right;
+			border-bottom : 1px solid black;
+			box-sizing : border-box;
+			overflow: hidden;
+			
+			}
+			header a {
+			color : black;
+			line-height : 40px;
+			font : 10px "Impact", Times, serif;
+			text-transform : uppercase;
+			text-shadow : 5px 5px 5px black;
+			overflow: hidden;
+			}
+			header img {
+			width : 80px;
+			height : 70px;
+			float : left;
+			padding-top : 10px;
+			}
+			header .menu {
+			width : 100%;
+			}
+			.blok-content {
+			background : slategray;
+			overflow : hidden;
+			border-radius : 10px 10px 10px 10px;
+			}
+			.blok-left {
+			background : black;
+			width : 97%;
+			height: 186vh;
+			background-color : rgb(250, 235, 199);
+			border : rgb(252, 101, 18) dotted 1px;
+			border-top : 20px solid indigo;
+			border-radius : 10px;
+			box-shadow : 5px 5px 10px rgb(0, 0, 0, 0.5);
+			box-sizing : border-box;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			}
+			.bl {
+			background-image : url(../image/fonforgall.gif);
+			width : 100%;
+			height : 40vh;
+			list-style : none;
+			z-index : -2;
+			background-repeat : no-repeat;
+			background-size : cover;
+			}
+			.site-blok2 h3 {
+			text-align : left;
+			font : 20px "Impact", Times, serif;
+			color : indigo;
+			}
+			.blok-left2 {
+			height : 100%;
+			background : black;
+			margin : 10px 20px;
+			float : top;
+			margin : 10px;
+			background-color : rgb(250, 235, 199);
+			padding : 10px 20px;
+			border : rgb(252, 101, 18) dotted 1px;
+			border-top : 20px solid indigo;
+			border-radius : 10px;
+			box-shadow : 5px 5px 10px rgb(0, 0, 0, 0.5);
+			box-sizing : border-box;
+			}
+			.site-blok2 h1 {
+			border : white solid 5px;
+			padding : 5px;
+			text-align : center;
+			font : 40px "Impact", Times, serif;
+			color : black;
+			box-shadow : 5px 5px 5px 5px black;
+			}
+			.site-blok2 {
+			margin-top : 90px;
+			position : relative;
+			float : left;
+			top : 0;
+			background-color : peachpuff;
+			width : 100%;
+			height : 275px;
+			box-shadow : -10px 15px 10px 10px black;
+			border-radius : 10px 10px 10px 10px;
+			}
+			.site-blok2 img {
+			border : chocolate solid 1px;
+			box-shadow : 5px 5px 5px 5px black;
+			}
+			.blok-right {
+			width : 200px;
+			float : right;
+			margin : 10px;
+			background-color : rgb(250, 235, 199);
+			padding : 10px 20px;
+			border : rgb(252, 101, 18) dotted 1px;
+			border-top : 20px solid indigo;
+			border-radius : 10px;
+			box-shadow : 5px 5px 10px rgb(0, 0, 0, 0.5);
+			position : fixed;
+			right : 20px;
+			top : 50%;
+			margin-top : -70px;
+			z-index : 1;
+			min-width : 110px;
+			text-align : center;
+			box-sizing : border-box;
+			}
+			#blokMenu {
+			width : 240px;
+			height : auto;
+			box-sizing : border-box;
+			}
+			#blokMenu ul {
+			width : 200px;
+			height : auto;
+			margin : 0;
+			padding : 0;
+			list-style : none;
+			position : relative;
+			}
+			#blokMenu ul li {
+			display : block;
+			width : 100%;
+			height : auto;
+			position : relative;
+			}
+			#blokMenu ul li a {
+			position : relative;
+			display : block;
+			width : 200px;
+			height : auto;
+			box-sizing : border-box;
+			font-size : 13px;
+			text-transform : uppercase;
+			font-weight : bold;
+			color : peachpuff;
+			line-height : 1.2em;
+			padding : 10px 15px;
+			background : coral;
+			text-decoration : none;
+			}
+			#blokMenu ul > li:first-child > a {
+			border : 0;
+			}
+			#blokMenu ul li a:hover, #blokMenu ul li:hover a {
+			background : rgb(101, 5, 131);
+			color : rgb(227, 252, 1);
+			transition : 0.5s;
+			}
+			#blokMenu ul li ul {
+			position : absolute;
+			top : 0;
+			right : 100%;
+			display : none;
+			width : 150px;
+			}
+			#blokMenu ul li:hover > ul {
+			display : block;
+			}
+			#blokMenu ul li ul li a {
+			text-transform : none;
+			padding : 5px 20px;
+			transition : 0.5s;
+			}
+			#blokMenu ul li ul li a:hover, #blokMenu ul li ul li:hover > a {
+			background : rgb(247, 177, 72);
+			color : rgb(243, 10, 80);
+			}
+			.table {
+			background-image : url(../image/fonforgall.gif);
+			width : 100%;
+			height : 205vh;
+			list-style : none;
+			z-index : -2;
+			background-repeat : no-repeat;
+			background-size : cover;
+			}
+			.table p {
+			color : white;
+			height : 90px;
+			width : 50%;
+			}
+			#z {
+			font : 15px "Impact", Times, serif;
+			}
 	}
