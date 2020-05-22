@@ -1,0 +1,104 @@
+.body_slides{
+	list-style:none;
+	margin:0;
+	padding:0;
+	z-index:-2; 
+	background:#000;}
+.body_slides,
+.body_slides:after{
+    position: relative;
+	width:100%;
+	height:100%;
+}
+.body_slides:after { 
+    content: '';
+	background: transparent url(../image/bodyGif2.gif) repeat top left;}
+
+	.head_slides{
+		list-style:none;
+		margin:0;
+		padding:0;
+		z-index:-2; 
+		background:#000;}
+	.head_slides,
+	.head_slides:after{
+		position: relative;
+		width:100%;
+		height:100%;
+	}
+	.head_slides:after { 
+		content: '';
+		background: transparent url(../image/bodyGif2.gif) repeat top left;}
+	
+@-webkit-keyframes anim_slides {
+0% {opacity:0;}
+6% {opacity:1;}
+24% {opacity:1;}
+30% {opacity:0;}
+100% {opacity:0;}
+}
+@-moz-keyframes anim_slides {
+0% {opacity:0;}
+6% {opacity:1;}
+24% {opacity:1;}
+30% {opacity:0;}
+100% {opacity:0;}
+}
+.body_slides li{
+    width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+    background-size:cover;
+    background-repeat:none;
+	opacity:0;
+    -webkit-animation: anim_slides 18s linear infinite 0s;
+    -moz-animation: anim_slides 18s linear infinite 0s;
+    -o-animation: anim_slides 18s linear infinite 0s;
+    -ms-animation: anim_slides 18s linear infinite 0s;
+    animation: anim_slides 18s linear infinite 0s;
+}
+.head_slides li{
+    width:100%;
+	height:100%;
+	position:fixed;
+	top:0;
+	left:0;
+    background-size:cover;
+    background-repeat:none;
+	opacity:0;
+    -webkit-animation: anim_slides 18s linear infinite 0s;
+    -moz-animation: anim_slides 18s linear infinite 0s;
+    -o-animation: anim_slides 18s linear infinite 0s;
+    -ms-animation: anim_slides 18s linear infinite 0s;
+    animation: anim_slides 18s linear infinite 0s;
+}
+  
+.body_slides li:nth-child(1){
+background-image: url(../image/bodyGif2.gif) 
+}
+.body_slides li:nth-child(2){
+-webkit-animation-delay: 6.0s;
+-moz-animation-delay: 6.0s;
+background-image: url(../image/tenor.gif) 
+}
+.body_slides li:nth-child(3){
+-webkit-animation-delay: 12.0s;
+-moz-animation-delay: 12.0s;
+background-image: url(../image/bodyGif.gif) 
+}
+.head_slides li:nth-child(1){
+	background-image: url(../image/bodyGif2.gif) 
+	}
+	.head_slides li:nth-child(2){
+	-webkit-animation-delay: 6.0s;
+	-moz-animation-delay: 6.0s;
+	background-image: url(../image/tenor.gif) 
+	}
+	.head_slides li:nth-child(3){
+	-webkit-animation-delay: 12.0s;
+	-moz-animation-delay: 12.0s;
+	background-image: url(../image/bodyGif.gif) 
+	}
+	
